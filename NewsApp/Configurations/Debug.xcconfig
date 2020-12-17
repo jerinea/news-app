@@ -1,0 +1,13 @@
+//
+//  Debug.xcconfig
+//  NewsApp
+//
+//  Created by Jerin Emmanuel on 12/17/20.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_BASE = https:\/\/api.nytimes.com/svc/mostpopular/v2/mostviewed/
+
+API_KEY = ZERVYczYifRF7axKWbuBIka2lz7g80z9
