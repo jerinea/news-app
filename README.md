@@ -54,7 +54,7 @@ This project is structured in a such a way that the UI elements are properly dec
 This project uses XCode configruation settings file to keep the configruations such as api base url and api key.
 Struct `Environment` is used for accessing the configurations.
 * `Debug.xcconfig` - Keep development/test configruations
-* `Release.xcconfig` - Keep development/test configruations
+* `Release.xcconfig` - Keep production configruations
 
 ### Network ###
 
@@ -63,7 +63,7 @@ This project uses URLSession to call apis and JSONDecoder to decode json respons
 ### Screens ###
 
 This project uses Storyboard and UIKit framework to implement the UI/Screens. SwiftUI is not used in order to support iOS versions below 13. Naviation is based on UINavigationController using storyboard segues.
-Following are the clases uses to implement UI.
+Following are the classes used to implement the UI.
 * `NewsListViewController`: First screen where all news/articles are listed.
 * `NewsDetailViewController`: Screen which display the details of a particular news/article.
 * `PeriodSelectionViewController`: Model screen to select the period from which the news/articles are fetched.
