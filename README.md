@@ -4,7 +4,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Requirements ###
 
-* Xcode 14
+* Xcode 12
 * Swift 5
 * Minimum supported iOS version 12.0
 * Git
